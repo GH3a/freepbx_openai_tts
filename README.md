@@ -5,6 +5,7 @@ Custom Text to Speech Engines for Freepbx
 modify /var/www/html/admin/modules/tts/agi-bin/propolys-tts.agi
 
 mkdir /var/lib/asterisk/sounds/tts
+
 chown asterisk:asterisk /var/lib/asterisk/sounds/tts
 
 save openai.py
