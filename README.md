@@ -8,12 +8,15 @@ mkdir /var/lib/asterisk/sounds/tts
 
 chown asterisk:asterisk /var/lib/asterisk/sounds/tts
 
-save openai.py
+save openai.py to PATH like:
+/etc/asterisk/tts/openai.py #change your PATH in propolys-tts.agi
 
-which python3 find python path
+INPUT your openai URL and KEY into openai.py!!!!
+
+find your python path
 /usr/bin/python3
 
-go to website
+go to admin website
 https://www.abc.com/admin/config.php?display=ttsengines
 
 settings >> Text to Speech Engines >> Add TTS Engine >> Engine Name >> Select [Custom] >> input [openai] >> Engine Path >> input [your python3 path] >> submit
